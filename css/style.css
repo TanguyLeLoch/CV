@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    font-family: 'IBM', monospace;
+}
+
+.layout {
+    display: flex;
+}
+.left {
+    background-color: rgb(28, 28, 30);
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-container {
+    border-radius: 50%;
+}
+.left-infos {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
+.left-infos a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    width: 80%;
+}
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.me-img {
+    object-fit: cover;
+    object-position: 90% 30%;
+    border-radius: 50%;
+    border: 2px solid rgb(36, 163, 242);
+}
+
+.right {
+    color: rgb(28, 28, 30);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-container {
+    background-color: rgb(28, 28, 30);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.backend-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.backend-skills > span > i {
+    padding-right: 5px;
+}
