@@ -1,29 +1,52 @@
 body {
     background-color: white;
     font-family: 'IBM', monospace;
+    font-size: 13px;
 }
-
+h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+h3 {
+    padding-top: 10px;
+    font-weight: bold;
+}
+i {
+    color: rgb(36, 163, 242);
+}
 .layout {
     display: flex;
 }
 .left {
     background-color: rgb(28, 28, 30);
-    width: 30%;
+    width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    height: 1289px;
+    border-right: 2px solid rgb(36, 163, 242);
+}
+.right {
+    color: rgb(28, 28, 30);
+    width: 70%;
+    border-left: 2px solid rgb(36, 163, 242);
 }
 .img-container {
     border-radius: 50%;
 }
 .left-infos {
     display: grid;
-    grid-template-columns: 30px 1fr;
-    align-items: center;
-    grid-row-gap: 10px;
-    padding: 10px;
+    width: 90%;
+    grid-template-columns: 10% 90%;
+}
+.left-infos > h2 {
+    padding: 20px;
+}
+.left-infos > i {
+    font-size: 20px;
+    margin: auto;
 }
 .left-infos a {
     color: white;
@@ -47,12 +70,10 @@ section {
     object-position: 90% 30%;
     border-radius: 50%;
     border: 2px solid rgb(36, 163, 242);
+    width: 200px;
+    height: 200px;
 }
 
-.right {
-    color: rgb(28, 28, 30);
-    width: 70%;
-}
 .title-container {
     background-color: rgb(28, 28, 30);
     width: 80%;
@@ -65,15 +86,18 @@ section {
     margin: 30px auto;
 }
 .skills {
-    display: grid;
-    grid-template-columns: 100px 1fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.skill:nth-child(even) {
+    padding-left: 20px;
 }
 
 .backend-skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .backend-skills > span > i {
     padding-right: 5px;
@@ -84,4 +108,28 @@ section {
     justify-content: center;
     align-items: flex-start;
     padding: 20px;
+}
+.main-content i {
+    color: rgb(36, 163, 242);
+}
+.contact-medium {
+    padding: 7px 0;
+}
+
+.stack > li {
+    display: inline-block;
+}
+.stack > li::after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: 7px;
+    display: inline-block;
+    background: rgb(36, 163, 242);
+}
+.stack > li:last-child::after {
+    content: '';
+    height: 0;
+    width: 0;
 }
