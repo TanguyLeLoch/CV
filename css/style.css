@@ -13,8 +13,8 @@ h2 {
     padding: 10px 0;
 }
 h3 {
-    padding-top: 10px;
     font-weight: bold;
+    font-size: 16px;
 }
 i {
     color: rgb(36, 163, 242);
@@ -28,7 +28,7 @@ i {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     height: 1120px;
     border-right: 2px solid rgb(36, 163, 242);
@@ -40,6 +40,7 @@ i {
 }
 .img-container {
     border-radius: 50%;
+    padding: 20px 0;
 }
 .left-infos {
     display: grid;
@@ -88,12 +89,13 @@ section {
     align-items: center;
     color: white;
     padding: 20px;
-    margin: 10px auto 0 auto;
+    margin: 20px auto 0 auto;
 }
 .skills {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 5px;
 }
 .skill:nth-child(even) {
     padding-left: 20px;
@@ -103,6 +105,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    gap: 5px;
 }
 .backend-skills > span > i {
     padding-right: 5px;
@@ -116,6 +119,9 @@ section {
 }
 .main-content i {
     color: rgb(36, 163, 242);
+}
+.main-content > div {
+    width: 100%;
 }
 .contact-medium {
     padding: 7px 0;
@@ -161,7 +167,7 @@ section {
 .date {
     font-size: 0.8em;
     color: rgb(36, 163, 242);
-    padding: 10px 0;
+    padding: 7px 0;
     justify-self: center;
 }
 .date1 {
@@ -187,4 +193,35 @@ section {
     height: 100%;
     background-color: rgb(36, 163, 242);
     justify-self: center;
+    align-self: center;
+}
+.project-mid-dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.milestone-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 5px;
+}
+.milestone-category {
+    padding-bottom: 0;
+}
+
+.left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.left .contact-mediums {
+    gap: 0px;
+}
+
+.left h2 {
+    padding-top: 30px;
 }

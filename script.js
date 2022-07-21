@@ -7,7 +7,6 @@ for (let i = 0; i < uls.length; i++) {
     const lis = ul.querySelectorAll('li');
     for (let j = 1; j < lis.length; j++) {
         const li = lis[j];
-        console.log(li);
         li.before(separator.cloneNode(true));
     }
 }

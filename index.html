@@ -27,7 +27,7 @@
                     <i class="fa-solid fa-address-book"></i>
                     <h2>Contact and links</h2>
                     <div></div>
-                    <ul>
+                    <ul class="contact-mediums">
                         <li class="contact-medium"><i class="fa-solid fa-phone"></i> <a href="tel:+336 62 68 11 65">06 62 68 11 65</a></li>
                         <li class="contact-medium"><i class="fa-solid fa-at"></i> <a href="mailto:leleochtanguy@gmail.com">lelochtanguy@gmail.com</a></li>
                         <li class="contact-medium">
@@ -36,6 +36,7 @@
                         <li class="contact-medium">
                             <i class="fa-brands fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/tanguyleloch/">linkedin.com/in/tanguyleloch/</a>
                         </li>
+                        <li class="contact-medium"><i class="fa-brands fa-linkedin-in"></i> <a href="https://tanguyleloch.com/">tanguyleloch.com</a></li>
                     </ul>
                     <i class="fa-solid fa-language"></i>
                     <h2>Language</h2>
@@ -58,6 +59,16 @@
                         <h3>Other:</h3>
                         <span class="skill">Git VsCode Eclipse Jenkins</span>
                     </div>
+                    <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                    <h2>Hobbies</h2>
+                    <div></div>
+                    <div class="hobbies">
+                        <ul>
+                            <li>Fitness</li>
+                            <li>Cryptocurrencies</li>
+                            <li>Sand yacht</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="right">
@@ -67,13 +78,15 @@
                 </div>
                 <div class="main-content">
                     <div>
-                        <h2><i class="fa-solid fa-briefcase"></i> Job experiences</h2>
+                        <center>
+                            <h2 class="milestone-category"><i class="fa-solid fa-briefcase"></i> Job experiences</h2>
+                        </center>
                         <div class="milestones">
                             <div class="content1">
-                                <h3 class="milestone">triPica</h3>
-
-                                <span>Backend Developer</span>
-                                <span>2021 - 2022 (1.5 year)</span>
+                                <div class="milestone-title">
+                                    <h3 class="milestone">triPica</h3>
+                                    <span>Backend Developer</span>
+                                </div>
                                 <p class="justify-text">
                                     Backend development for a real-time utilities/telcos BSS platform with a cutting edge stack with AWS server and continuous
                                     integration. One quarter of my time was devops activity for debug and fix production issues. The company has a very good
@@ -93,9 +106,10 @@
                             </div>
 
                             <div class="content2">
-                                <h3 class="milestone">Sopra Steria</h3>
-                                <span>Backend Developer</span>
-                                <span>2020 - 2021 (1 year)</span>
+                                <div class="milestone-title">
+                                    <h3 class="milestone">Sopra Steria</h3>
+                                    <span>Backend Developer</span>
+                                </div>
                                 <p class="justify-text">
                                     Backend development for a master data management system. This system was used as the central piece of one of the biggest
                                     information system in France.
@@ -117,45 +131,22 @@
                             <div class="line line2"></div>
                         </div>
                     </div>
+
                     <div>
-                        <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                        <center>
+                            <h2 class="milestone-category"><i class="fa-solid fa-screwdriver-wrench"></i> Projects</h2>
+                        </center>
                         <div class="milestones">
                             <div class="content1">
-                                <h3>Seatech - School of engineering</h3>
-                                <p>
-                                    <span>Master Degree (French Engineering Diploma)</span>
-                                    <span>2017 - 2020 (3 year)</span>
-                                </p>
-                                <p>Intership at BU-Crocs Laboratory</p>
-                            </div>
-                            <div class="content2">
-                                <h3>University of Rennes</h3>
-                                <p>
-                                    <span>Bachelor degree in science of engineering</span>
-                                    <span>2014 - 2017 (3 year)</span>
-                                </p>
-                            </div>
-                            <div class="date date1">2020</div>
-                            <div class="date date2">2017</div>
-                            <div class="date date3">2014</div>
-                            <div class="line line1"></div>
-                            <div class="line line2"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <h2><i class="fa-solid fa-screwdriver-wrench"></i> Projects</h2>
-                        <ul>
-                            <div>
                                 <h3>Front run trading bot</h3>
-                                <span>A bot who make profit by front run big transactions</span>
-                                <a href="https://tanguyleloch.com/projects/front-runner-trading-bot">article about my front run trading bot</a>
-                                <p>
-                                    This bot used the strategy of front run also knowns as sandwitch strategy. On Crypto Dex, we have to choose a tolerance of
-                                    filling, it's like saying: I want to buy a $1000 computer but it's ok if the price goes up to $1100. The attacker buy
-                                    computer before the victim and sell it to the victim, making a $100 profit.
+                                <p class="justify-text">
+                                    A bot who make profit by front run big transactions. This bot used the strategy of front run also knowns as sandwitch
+                                    strategy. On Crypto Dex, we have to choose a tolerance of filling, it's like saying: I want to buy a $1000 computer but it's
+                                    ok if the price goes up to $1100. The attacker buy computer before me and sell it to me, making a $100 profit. I wrote an
+                                    <a href="https://tanguyleloch.com/projects/front-runner-trading-bot">article</a> for further information.
                                 </p>
-                                <p>
-                                    This project helping me to deep dive into the behavior of blochain with the mempool containing the pending transactions or
+                                <p class="justify-text">
+                                    This project helping me to deep dive into the behavior of blockhain with the mempool containing the pending transactions or
                                     how the gas fee work.
                                 </p>
                                 <ul class="stack">
@@ -165,13 +156,13 @@
                                     <li>solidity</li>
                                 </ul>
                             </div>
-                            <div>
+                            <div class="content2">
                                 <h3>Grid trading bot</h3>
-                                <p>
+                                <p class="justify-text">
                                     The bot is based on the idea of the grid trading. The grid trading is a strategy of trading which aim to take profit of high
                                     variation of the price. When the price raise by X% the bot sell, and if the price has a X% drop, it buys.
                                 </p>
-                                <p>
+                                <p class="justify-text">
                                     I also used this project to develop my skills with nestJs framework, typescript and to develop from scratch a microservice
                                     architecture. This bot is running on a VPS using my real money so the security part of it was also very important.
                                 </p>
@@ -180,10 +171,42 @@
                                     <li>MongoDb</li>
                                     <li>NodeJs</li>
                                     <li>Mexc exchange interfacing</li>
-                                    <li>Discord interfacing</li>
+                                    <li>DiscordJs</li>
                                 </ul>
                             </div>
-                        </ul>
+                            <div class="date date1">Now</div>
+                            <div class="date date2 project-mid-dates"><span>May 2022</span><span>Febuary 2022</span></div>
+                            <div class="date date3">December 2021</div>
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                            <h2 class="milestone-category"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                        </center>
+                        <div class="milestones">
+                            <div class="content1">
+                                <div class="milestone-title">
+                                    <h3 class="milestone">Seatech - School of engineering</h3>
+                                    <span>Master Degree (French Engineering Diploma)</span>
+                                </div>
+                                <p>Computer science, computer vision and Data Science specialization</p>
+                                <p>I did an internship at BU-Crocs Laboratory in bangkok on computer vision working on a hand controlled software</p>
+                            </div>
+                            <div class="content2">
+                                <div class="milestone-title">
+                                    <h3 class="milestone">University of Rennes</h3>
+                                    <span>Science of engineering bachelor degree</span>
+                                </div>
+                                <p>Engineering and mechanical specialization</p>
+                            </div>
+                            <div class="date date1">2020</div>
+                            <div class="date date2">2017</div>
+                            <div class="date date3">2014</div>
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
