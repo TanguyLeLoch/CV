@@ -1,11 +1,16 @@
 body {
     background-color: white;
-    font-family: 'IBM', monospace;
-    font-size: 13px;
+    font-family: 'GillSans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 h2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 h3 {
     padding-top: 10px;
@@ -19,13 +24,13 @@ i {
 }
 .left {
     background-color: rgb(28, 28, 30);
-    width: 300px;
+    width: 250px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 1289px;
+    height: 1120px;
     border-right: 2px solid rgb(36, 163, 242);
 }
 .right {
@@ -83,7 +88,7 @@ section {
     align-items: center;
     color: white;
     padding: 20px;
-    margin: 30px auto;
+    margin: 10px auto 0 auto;
 }
 .skills {
     display: flex;
@@ -116,20 +121,70 @@ section {
     padding: 7px 0;
 }
 
-.stack > li {
-    display: inline-block;
+.stack {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    gap: 10px;
+    align-items: center;
 }
-.stack > li::after {
-    content: '';
-    height: 10px;
+
+.justify-text {
+    text-align: justify;
+}
+
+.separator {
     width: 10px;
-    border-radius: 50%;
-    margin-left: 7px;
-    display: inline-block;
-    background: rgb(36, 163, 242);
+    height: 4px;
+    background-color: rgb(36, 163, 242);
 }
-.stack > li:last-child::after {
-    content: '';
-    height: 0;
-    width: 0;
+
+.milestones {
+    display: grid;
+    grid-template-columns: 65px 1fr;
+    grid-template-areas:
+        'date1 . '
+        'line1 content1'
+        'date2 . '
+        'line2 content2'
+        'date3 . ';
+}
+/* .experiences > div {
+    grid-area: content;
+} */
+.content1 {
+    grid-area: content1;
+}
+.content2 {
+    grid-area: content2;
+}
+.date {
+    font-size: 0.8em;
+    color: rgb(36, 163, 242);
+    padding: 10px 0;
+    justify-self: center;
+}
+.date1 {
+    grid-area: date1;
+}
+.date2 {
+    grid-area: date2;
+}
+.date3 {
+    grid-area: date3;
+}
+.line1 {
+    grid-area: line1;
+}
+.line2 {
+    grid-area: line2;
+}
+.milestone {
+    padding: 0;
+}
+.line {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(36, 163, 242);
+    justify-self: center;
 }
