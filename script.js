@@ -17,7 +17,7 @@ for  (let i = 0; i < familiarTools.length; i++) {
     const familiarTool = familiarTools[i];
     const text = familiarTool.textContent;
 
-    let  tools = text.split('/');
+    let  tools = text.split(' / ');
     // trim each tool
     tools = tools.map(item => item.trim());
     // set hidden in css
