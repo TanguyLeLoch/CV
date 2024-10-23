@@ -120,7 +120,8 @@ i {
 .stack {
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     gap: 10px;
     align-items: center;
 }
@@ -175,7 +176,7 @@ i {
 }
 
 .side-project-content {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 @media print {
