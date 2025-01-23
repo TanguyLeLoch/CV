@@ -105,7 +105,7 @@ i {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
 }
 .main-content i {
     color: rgb(36, 163, 242);
