@@ -94,7 +94,7 @@ header .contact a + a::before {
 }
 
 section {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 h2 {
