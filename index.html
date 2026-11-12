@@ -1,255 +1,151 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Tanguy Le Loch</title>
-    <script src="https://kit.fontawesome.com/484937b8ff.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanguy Le Loch</title>
+  <link rel="stylesheet" href="css/simple.css"/>
 </head>
 <body>
-<div class="layout">
-    <div class="left">
-        <div class="img-container">
-            <img class="me-img" src="img/tanguy-square.png" alt="Tanguy Le Loch" width="200" height="200"/>
-        </div>
-        <div class="left-infos">
-            <i class="fa-solid fa-address-card"></i>
-            <h2>About me</h2>
-            <div></div>
-            <p class="justify-text">I am a software developer with 5 years of experience. My expertise is in
-                Java, particularly the Spring Framework, and I am proficient in
-                full-stack development using Angular. Having worked with companies like Alpega TMS, I have gained
-                valuable insights into the logistics industry. I enjoy learning new things, taking on fresh challenges,
-                and collaborating with my team while sharing knowledge.
-            </p>
-            <i class="fa-solid fa-address-book"></i>
-            <h2>Contact and links</h2>
-            <div></div>
-            <ul class="contact-mediums">
-                <li class="contact-medium"><i class="fa-solid fa-phone"></i> <a href="tel:+66 96 571 7804">+66 96 571
-                    7804</a></li>
-                <li class="contact-medium"><i class="fa-solid fa-at"></i> <a href="mailto:lelochtanguy@gmail.com">lelochtanguy@gmail.com</a>
-                </li>
-                <li class="contact-medium">
-                    <i class="fa-brands fa-github"></i> <a href="https://github.com/TanguyLeLoch">github.com/TanguyLeLoch</a>
-                </li>
-                <li class="contact-medium">
-                    <i class="fa-brands fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/tanguyleloch/">linkedin.com/in/tanguyleloch/</a>
-                </li>
-                <li class="contact-medium"><i class="fa-solid fa-globe"></i> <a href="https://tanguyleloch.com/">tanguyleloch.com</a>
-                </li>
-            </ul>
-            <i class="fa-solid fa-language"></i>
-            <h2>Language</h2>
-            <div></div>
-            <ul>
-                <li>French: native speaker</li>
-                <li>English: fluent</li>
-            </ul>
-            <i class="fa-solid fa-code"></i>
-            <h2>Familiar tools</h2>
-            <div></div>
-            <div class="skills">
-                <h3>Backend:</h3>
-                <span class="skill familiar-tools">Java / Spring / Hibernate / Maven / Oracle DB / MongoDB / NodeJs</span>
-                <h3>Frontend:</h3>
-                <span class="skill familiar-tools">JS / TS / Angular / HTML / CSS</span>
-                <h3>Other:</h3>
-                <span class="skill familiar-tools">Agile / Git / CI/CD / TDD / DDD / SOLID / Clean code / Design patterns / much more</span>
-            </div>
-            <i class="fa-solid fa-table-tennis-paddle-ball"></i>
-            <h2>Hobbies</h2>
-            <div></div>
-            <div class="hobbies">
-                <ul>
-                    <li>Fitness</li>
-                    <li>Cryptocurrencies</li>
-                    <li>Investing</li>
-                    <li>Programming</li>
-                </ul>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
+<div class="page">
+  <header>
+    <div class="top">
+      <img src="img/tanguy-square.png" alt="Tanguy Le Loch"/>
+      <div class="identity">
+        <h1>Tanguy Le Loch</h1>
+        <div class="role">Java / Angular Full Stack Developer · Generative AI</div>
+      </div>
+      <div></div>
     </div>
-    <div class="right">
-        <div class="title-container">
-            <h1>Tanguy Le Loch</h1>
-            <h2>Software Developer</h2>
-        </div>
-        <div class="main-content">
-            <div>
-                <h2 class="milestone-category"><i class="fa-solid fa-briefcase"></i> Job experiences</h2>
-                <!-- New Experience -->
-                <section class="content1">
-                    <div class="date">2023 - Present (1 year)</div>
-                    <div class="milestone-title">
-                        <h3 class="milestone">Full Stack Developer</h3>
-                        <span>Alpega TMS (Khon Kaen, Thailand)</span>
-                    </div>
-                    <p class="justify-text">
-                        Working on a big transportation management system with over 30M LoC, I became a reference for
-                        the new
-                        Ocean Booking feature. Reduced development cycle time by ~90% through JBoss server optimization
-                        for 15+ developers.
-                        Collaborated with 20+ developers across 5 international offices. Worked on integration with GLS,
-                        INTTRA, and other logistics systems.
-                    </p>
-                    <ul class="stack">
-                        <li>Java 17</li>
-                        <li>Angular</li>
-                        <li>PL/SQL</li>
-                        <li>Oracle DB</li>
-                    </ul>
-                </section>
-                <section class="content2">
-                    <div class="date">2022 - 2023 (1 year)</div>
-                    <div class="milestone-title">
-                        <h3 class="milestone">Backend Developer</h3>
-                        <span>Universign (Paris, France)</span>
-                    </div>
-                    <p class="justify-text">
-                        Backend development for an e-signature solution. We used modern techniques like hexagonal
-                        architecture, DDD, trunk-based development, and continuous integration with backward-compatible
-                        APIs. Maintained 99.99% API uptime while handling 50,000+ daily e-signatures.
-                        Part of 2 cross-functional squads (8 developers total) delivering API updates for registration
-                        and transaction services.
-                    </p>
-                    <ul class="stack">
-                        <li>Java 8</li>
-                        <li>Rest doc</li>
-                        <li>Spring</li>
-                        <li>MongoDB</li>
-                        <li>Maven</li>
-                    </ul>
-                </section>
-                <section class="content3">
-                    <div class="date"> 2021-2022 (1.5 year)</div>
-                    <div class="milestone-title">
-                        <h3 class="milestone">Backend Developer </h3>
-                        <span>triPica (Paris, France)</span>
-                    </div>
-                    <p class="justify-text">
-                        Backend development for a real-time utilities/telcos BSS platform serving 500,000+ customers. As
-                        developer on-call, maintained 100% SLA compliance while resolving production incidents.
-                        Successfully migrated a major B2B customer.
-                    </p>
-                    <ul class="stack">
-                        <li>Java 17</li>
-                        <li>OpenAPI V3</li>
-                        <li>Spring</li>
-                        <li>Hibernate</li>
-                        <li>Maven</li>
-                    </ul>
-                </section>
-                <section>
-                    <div class="date"> 2020 - 2021 (1 year)</div>
-                    <div class="milestone-title">
-                        <h3 class="milestone">Backend Developer </h3>
-                        <span>Sopra Steria (Aix-en-provence, France)</span>
-                    </div>
-                    <p class="justify-text">
-                        Backend development for a master data management system used as the central piece of one of the
-                        largest information systems in France.
-                    </p>
-                    <p class="justify-text">
-                        The information system was so extensive that we had to operate within a SAFe Agile methodology.
-                    </p>
-                    <ul class="stack">
-                        <li>EBX5</li>
-                        <li>Java 8</li>
-                        <li>Swagger V2</li>
-                        <li>Spring</li>
-                        <li>Hibernate</li>
-                        <li>Maven</li>
-                    </ul>
-                </section>
-
-            </div>
-            <div>
-                <h2 class="milestone-category"><i class="fa-solid fa-screwdriver-wrench"></i> Projects</h2>
-                <div class="side-project-content">
-                    <h3>Ftax - On-chain Profit Calculator</h3>
-                    <p class="justify-text">
-                        Ftax is a tool I developed for calculating profit and losses of on-chain transactions, using
-                        Java Spring and Angular
-                        to provide accurate financial insights of blockchain transactions.
-                    </p>
-                    <ul class="stack">
-                        <li>Java</li>
-                        <li>Spring</li>
-                        <li>Angular</li>
-                        <li>Etherscan interfacing</li>
-                        <li>MySQL</li>
-                    </ul>
-                </div>
-                <div class="side-project-content">
-                    <h3>Grid Trading Bot</h3>
-                    <p class="justify-text">
-                        The bot uses grid trading to profit from price variations. I developed it with NestJs,
-                        TypeScript, and a microservice architecture. It's running on a VPS with real money, so security
-                        is a top priority.
-                    </p>
-                    <ul class="stack">
-                        <li>NestJs</li>
-                        <li>MongoDB</li>
-                        <li>NodeJs</li>
-                        <li>Binance and Mexc interfacing</li>
-                        <li>DiscordJs</li>
-                    </ul>
-                </div>
-                <div class="side-project-content">
-                    <h3>Front Run Trading Bot</h3>
-                    <p class="justify-text">
-                        I built a bot that profits by front-running large transactions by using the sandwich strategy.
-                        This project allowed me to dive deeper into blockchain behavior, particularly mempool dynamics
-                        and gas fee mechanics.
-                    </p>
-                    <ul class="stack">
-                        <li>Web3.js</li>
-                        <li>NodeJs</li>
-                        <li>MongoDB</li>
-                        <li>Solidity</li>
-                    </ul>
-                </div>
-            </div>
-            <div>
-                <h2 class="milestone-category"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
-                <div class="education">
-
-                    <section class="content1">
-                        <div class="date">2020 - 2023 (3 years)</div>
-                        <div class="milestone-title">
-                            <h3 class="milestone">Seatech</h3>
-                            <span>Master's Degree in Engineering (French Diplôme d'Ingénieur)</span>
-                        </div>
-                        <p>
-                            Computer science, computer vision, and data science specialization. Main subjects were Java,
-                            C++, and MATLAB development, detection, and underwater acoustics.
-                        </p>
-                        <p>I did an internship at BU-CROCCS Laboratory in Bangkok on computer vision, working on
-                            hand-controlled software.</p>
-                    </section>
-                    <section class="content2">
-                        <div class="date">2014 - 2017 (3 years)</div>
-                        <div class="milestone-title">
-                            <h3 class="milestone">University of Rennes</h3>
-                            <span>Bachelor's Degree in Science of Engineering</span>
-                        </div>
-                        <p>
-                            Engineering and mechanical specialization. Main subjects were resistance of materials, fluid
-                            mechanics, manufacturing, and Python development.
-                        </p>
-                    </section>
-                </div>
-
-            </div>
-        </div>
+    <div class="contact">
+      <a href="tel:+66965717804">+66 96 571 7804</a>
+      <a href="mailto:lelochtanguy@gmail.com">lelochtanguy@gmail.com</a>
+      <a href="https://www.linkedin.com/in/tanguyleloch/">linkedin.com/in/tanguyleloch</a>
+      <a href="https://github.com/TanguyLeLoch">github.com/TanguyLeLoch</a>
     </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p class="justify">Full stack developer with nearly 7 years of experience in Java / Spring and Angular, now building loan
+      platforms at BRED-IT. Hands-on with generative AI: AI contest winner, speaker and mentor. Eager to bring LLMs into
+      banking applications, from business needs to secure, scalable delivery.</p>
+  </section>
+
+  <section>
+    <h2>Generative AI</h2>
+    <ul>
+      <li>Winner of an AI contest organized in the Business IT FRA team.</li>
+      <li>Speaker at a Lunch &amp; Learn on AI shortcuts.</li>
+      <li>Mentor of 4 people in the Codex mentorship program.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Full Stack Developer, BRED-IT <span class="place">(Bangkok, Thailand)</span></h3>
+        <span class="date">2025 – Present</span>
+      </div>
+      <ul>
+        <li><strong>Sofider Crédit Chrono</strong>: loan platform handling €10M of contracted loans per month.</li>
+        <li><strong>PNF (Paiement en N fois)</strong>: Buy Now, Pay Later (BNPL) solution handling 30,000 loans per month.</li>
+        <li>Sole developer of <strong>DialogueESG</strong>, <strong>SaPAS</strong> and <strong>PassportPMEETI</strong>: gathered requirements with business teams and delivered to production.</li>
+        <li class="stack">Java 25 | Angular | PostgreSQL | Oracle DB</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Full Stack Developer, Alpega TMS <span class="place">(Khon Kaen / Bangkok, Thailand)</span></h3>
+        <span class="date">2023 – 2025</span>
+      </div>
+      <ul>
+        <li>Reference developer for the new Ocean Booking feature of a 30M+ LoC transportation management system.</li>
+        <li>Cut development cycle time by ~90% for 15+ developers through JBoss server optimization.</li>
+        <li>Worked with 20+ developers across 5 offices on GLS, INTTRA and other integrations.</li>
+        <li class="stack">Java 17 | Angular | PL/SQL | Oracle DB</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Backend Developer, Universign <span class="place">(Paris, France)</span></h3>
+        <span class="date">2022 – 2023</span>
+      </div>
+      <ul>
+        <li>Maintained 99.99% API uptime on an e-signature platform handling 50,000+ daily e-signatures.</li>
+        <li>Hexagonal architecture, DDD, trunk-based development and backward-compatible APIs, in 2 cross-functional
+          squads (8 developers) owning registration and transaction APIs.</li>
+        <li class="stack">Java 8 | Spring | MongoDB | Rest Docs | Maven</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Backend Developer, triPica <span class="place">(Paris, France)</span></h3>
+        <span class="date">2021 – 2022</span>
+      </div>
+      <ul>
+        <li>Real-time utilities/telcos BSS platform serving 500,000+ customers.</li>
+        <li>On-call developer: 100% SLA compliance on production incidents; migrated a major B2B customer.</li>
+        <li class="stack">Java 17 | Spring | Hibernate | OpenAPI V3 | Maven</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Backend Developer, Sopra Steria <span class="place">(Aix-en-Provence, France)</span></h3>
+        <span class="date">2020 – 2021</span>
+      </div>
+      <ul>
+        <li>Master data management system at the core of one of the largest information systems in France, in a SAFe
+          Agile organization.</li>
+        <li class="stack">Java 8 | Spring | Hibernate | EBX5 | Swagger V2 | Maven</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Java | Spring | Hibernate | Maven | JBoss | REST / OpenAPI | PostgreSQL | Oracle DB | MongoDB | Node.js</li>
+      <li>TypeScript | JavaScript | Angular | HTML | CSS</li>
+      <li>Agile | Git | CI/CD | TDD | DDD | SOLID | Clean code | Design patterns</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Master's Degree in Engineering (Diplôme d'Ingénieur)</h3>
+        <span class="date">2017 – 2020</span>
+      </div>
+      <div class="school">Seatech</div>
+      <ul>
+        <li>Computer science, computer vision and data science; internship at the BU-CROCCS laboratory in Bangkok.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <h3>Bachelor's Degree in Engineering Science</h3>
+        <span class="date">2014 – 2017</span>
+      </div>
+      <div class="school">University of Rennes</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Additional Information</h2>
+    <ul>
+      <li><strong>Languages:</strong> French (Native), English (Fluent).</li>
+    </ul>
+  </section>
 </div>
 </body>
 </html>
